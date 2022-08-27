@@ -14,7 +14,7 @@ public class SpringBootWithJenkinsApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringBootWithJenkinsApplication.class);	
 	
 	@PostConstruct // Execute only once after the bean initialized
-	public initMethod()
+	public void initMethod()
 	{
 		logger.info("Application Started...");
 	}

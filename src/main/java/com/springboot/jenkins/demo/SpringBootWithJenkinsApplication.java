@@ -16,7 +16,7 @@ public class SpringBootWithJenkinsApplication {
 	@PostConstruct // Execute only once after the bean initialized
 	public void initMethod()
 	{
-		logger.info("Application Started...");
+		logger.info("Application begin work...");
 	}
 	
 	

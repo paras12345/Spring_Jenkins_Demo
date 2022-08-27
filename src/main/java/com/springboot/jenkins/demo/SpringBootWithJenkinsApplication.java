@@ -23,7 +23,7 @@ public class SpringBootWithJenkinsApplication {
 	@PreDestroy // Execute only once after the bean destroyed from Application context
 	public void destrolMethod()
 	{
-		logger.info("Application Stoped...");
+		logger.info("Application Stoped...")
 	}
 	
 	
